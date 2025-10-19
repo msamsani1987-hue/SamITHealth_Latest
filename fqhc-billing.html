@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SamITHealth — FQHC Billing & Medical Billing Services</title>
+  <meta name="description" content="SamITHealth FQHC Billing — enterprise-grade medical billing and RCM for Federally Qualified Health Centers and community clinics. HIPAA-ready, SOC2-aligned operations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f6f8fb;--card:#ffffff;--muted:#6b7280;--brand:#0b7a75;--accent:#0f62fe;--radius:12px
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;background:var(--bg);color:#0f1724}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{background:#fff;border-bottom:1px solid #e6eef9}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--accent));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    .brand .title{font-weight:700;color:var(--brand);font-size:18px}
+    nav a{margin-left:16px;color:var(--muted);text-decoration:none;font-weight:600}
+    nav a:hover{color:var(--brand)}
+    h1{font-size:28px;margin:0 0 8px}
+    .lead{color:var(--muted);margin-bottom:14px;line-height:1.45}
+    .stat-row{display:flex;gap:12px;margin-top:14px}
+    .stat{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(12,36,60,0.04);min-width:120px}
+    .stat strong{font-size:1.2em;display:block}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .feature{background:linear-gradient(180deg,#fff,#fbfdff);padding:14px;border-radius:10px;border:1px solid #eef6ff}
+    .grid{display:grid;grid-template-columns:1fr 380px;gap:24px;margin-top:18px}
+    .card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 8px 28px rgba(12,36,60,0.06)}
+    .section-title{margin:6px 0 12px;font-size:18px}
+    ul{padding-left:18px;color:var(--muted)}
+    .metrics-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .metric{background:linear-gradient(180deg,#fff,#fbfffe);padding:16px;border-radius:10px;border:1px solid #eef6ff;text-align:center}
+    footer{padding:24px 0;margin-top:32px;border-top:1px solid #e6eef9}
+    footer .meta{color:var(--muted);font-size:13px}
+    .btn{background:var(--brand);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}
+    form input,form textarea{width:100%;padding:10px;border:1px solid #e6eef9;border-radius:8px;margin-bottom:8px;font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden>SH</div>
+        <div>
+          <div class="title">SamITHealth</div>
+          <div style="font-size:12px;color:var(--muted)">FQHC Billing & Medical Billing Services</div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="provider-services.html">Provider Services</a>
+        <a href="laboratory-services.html">Laboratory</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://healthcareitai.com/index.html" target="_blank" rel="noopener">Healthcare ITAI</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Enterprise-grade FQHC Billing & RCM</h1>
+        <p class="lead">SamITHealth delivers configurable, compliance-first revenue cycle management for Federally Qualified Health Centers and community clinics. We integrate automation, payer intelligence, and certified billing teams to reduce denials and accelerate reimbursements.</p>
+        <div class="stat-row">
+          <div class="stat"><strong>24%</strong><span style="color:var(--muted)">Improvement in collections</span></div>
+          <div class="stat"><strong>40%</strong><span style="color:var(--muted)">Reduction in denials</span></div>
+          <div class="stat"><strong>48h</strong><span style="color:var(--muted)">Avg first-response time</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="grid">
+        <div class="card">
+          <img src="assets/images/HealthCareITAI.png" alt="Billing dashboard" onerror="this.style.display='none'">
+          <h3 class="section-title">How we deliver results</h3>
+          <p style="color:var(--muted)">We integrate technology, process, and expertise to deliver measurable revenue lift — from discovery to pilot to scalable optimization. Each engagement includes KPI mapping, EHR integration, and performance analytics.</p>
+          <h4 style="margin-top:12px">Engagement Model</h4>
+          <ol style="color:var(--muted)">
+            <li><strong>Discovery:</strong> Analyze workflows, denials, and leakage.</li>
+            <li><strong>Pilot:</strong> Prove measurable improvement via sample claims.</li>
+            <li><strong>Integration & Scale:</strong> EHR adapters and analytics pipelines.</li>
+            <li><strong>Continuous Optimization:</strong> Denial tuning and revenue integrity.</li>
+          </ol>
+        </div>
+
+        <aside class="card">
+          <h3 class="section-title">Contact Sales</h3>
+          <p style="color:var(--muted)">Get in touch for a customized pilot, quote, or partnership discussion. We'll respond within one business day.</p>
+          <form action="https://formspree.io/f/yourFormID" method="POST">
+            <input type="text" name="name" placeholder="Full name" required>
+            <input type="email" name="email" placeholder="Business email" required>
+            <input type="text" name="organization" placeholder="Organization / Practice">
+            <textarea name="message" rows="4" placeholder="Tell us about your billing needs..."></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          <p style="font-size:13px;color:var(--muted)">Powered by Formspree — secure email notifications for inquiries.</p>
+        </aside>
+      </div>
+
+      <div class="metrics-row">
+        <div class="metric">
+          <h4>Claim Status</h4>
+          <svg viewBox="0 0 120 120" width="100%" height="140">
+            <circle cx="60" cy="60" r="44" fill="#eef6f5" />
+            <path d="M60 16 A44 44 0 0 1 98 60 L60 60 Z" fill="#0f62fe"/>
+            <path d="M98 60 A44 44 0 0 1 74 98 L60 60 Z" fill="#0ea5a3"/>
+            <path d="M74 98 A44 44 0 0 1 28 84 L60 60 Z" fill="#06b6d4"/>
+            <path d="M28 84 A44 44 0 0 1 60 16 L60 60 Z" fill="#c4f0ec"/>
+          </svg>
+          <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--muted)">
+            <div><strong style="color:#0f62fe">Paid</strong>45%</div>
+            <div><strong style="color:#0ea5a3">Pending</strong>30%</div>
+            <div><strong style="color:#06b6d4">Denied</strong>15%</div>
+            <div><strong style="color:#c4f0ec">In Review</strong>10%</div>
+          </div>
+        </div>
+
+        <div class="metric">
+          <h4>Dashboard Snapshot</h4>
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div style="font-weight:700">Revenue Trend</div>
+              <div style="color:var(--muted);font-size:13px">Last 30 days</div>
+            </div>
+            <div style="font-size:20px;font-weight:700">$1.2M</div>
+          </div>
+          <svg viewBox="0 0 240 60" width="100%" height="60" style="margin-top:12px">
+            <polyline fill="none" stroke="#0f62fe" stroke-width="3" points="0,50 30,36 60,44 90,26 120,30 150,18 180,28 210,12 240,20" />
+          </svg>
+          <p style="color:var(--muted);font-size:13px;margin-top:8px">Schedule demo or explore analytics integration.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+        <div>© 2025 SamITHealth. All rights reserved.</div>
+        <div class="meta">HIPAA-ready | SOC2-aligned • <a href="https://healthcareitai.com/index.html" target="_blank" style="color:var(--brand)">Healthcare ITAI</a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
